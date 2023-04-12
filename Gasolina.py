@@ -6,9 +6,9 @@ dados = pd.read_csv('gasolina.csv')
 
 sns.lineplot(x='dia', y='venda', data=dados)
 
-plt.title('Preço Médio de Venda da Gasolina')
+plt.title('Média de Venda da Gasolina')
 plt.xlabel('Dias')
-plt.ylabel('Preços')
+plt.ylabel('Preço de Venda')
 
 plt.savefig('Gasolina.png')
 
